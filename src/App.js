@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Palette from './components/Palette';
-import seedColors from './seedColors';
+import seedColors from './components/seedColors';
 
 
 
@@ -10,8 +10,7 @@ class  App extends React.Component {
   render(){
     return (
       <div className="App">
-      <h1>Hello</h1>
-      <Palette palette={seedColors[4]} />
+      <Palette {...seedColors[4]} />
       </div>
     );
   }
