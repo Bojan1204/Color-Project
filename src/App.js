@@ -9,7 +9,7 @@ import { generatePalette } from "./components/colorHelpers";
 
 class  App extends React.Component {
   render(){
-    // console.log(generatePalette(seedColors[4]))
+    console.log(generatePalette(seedColors[4]))
     return (
       <div className="App">
       <Palette palette={generatePalette(seedColors[4])} />
