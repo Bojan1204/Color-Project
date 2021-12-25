@@ -12,6 +12,7 @@ class  App extends React.Component {
 
   findPalette=(id)=>{
     return seedColors.find(function (palette) {
+      
       return palette.id === id;
     })
   }
